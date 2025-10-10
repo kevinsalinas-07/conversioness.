@@ -3,22 +3,22 @@ using namespace std;
 int main()
 {
 
-    int numsecreto = 5, numintento;
+    int numsecreto = 777, numintento;
     do
     {
-        cout << "ingresa un numero entero";
+        cout << "ingresa un numero entero" << endl;
         cin >> numintento;
         if (numintento == numsecreto)
         {
-            cout << "Adinivinaste el numero! ";
+            cout << "Adinivinaste el numero! " << endl;
         }
         else if (numintento > numsecreto)
         {
-            cout << "El numero ingresado es muy alto";
+            cout << "El numero ingresado es muy alto" << endl;
         }
         else
         {
-            cout << " El numero ingresado es muy bajo";
+            cout << " El numero ingresado es muy bajo" << endl;
         }
 
     } while (numsecreto != numintento);
